@@ -26,12 +26,13 @@ html, body{
 nav{
     position: fixed;
     height: 80px;
-    background-color: rebeccapurple;
-    color: white;
+    background-color: #81D8D0;
+    color: #f7f7f7;
     width: 100%;
     line-height: 80px;
     box-sizing: border-box;
     padding: 0 10px;
+    text-align: center;
 }
 
 nav a{
@@ -40,8 +41,18 @@ nav a{
     margin-right: 50px;
 }
 
-
+nav a:hover{
+  font-weight: bold;
+  color: #F8F503;
+}
 
 .footer{
   text-align: center;
+  background-color: #81D8D0;
+  color: #f7f7f7;
+  height: 50px;
+}
+
+.foooter p{
+  margin-top: 10px;
 }
