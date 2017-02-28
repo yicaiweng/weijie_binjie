@@ -5,3 +5,11 @@ $("a").click(function (e) {
         scrollTop: $("#" + btnId).offset().top
     }, 1000);
 });
+
+$(function(){
+  $('a').each(function(){
+    if($(this).prop('href') == windows.location.href){
+      $(this).addClass('current');
+    }
+  });
+});
