@@ -14,6 +14,7 @@ nav a.current{
   color: #F8F503;
   font-weight: bold;
 }
+
 .wrapper{
     height: 100%;
     width: 100%;
@@ -54,6 +55,15 @@ nav a:hover{
   font-size: 40px;
 }
 
+#section2 p{
+  margin: 0 150px;
+}
+
+#section5 img{
+  width:  500px;
+  height: 500px;
+}
+
 #section6 p{
   margin: 20px 0;
 }
@@ -62,6 +72,7 @@ nav a:hover{
   background-color: #2B313D;
   color: #D5CEC1;
 }
+
 .vow1{
   margin-top: 20px;
   text-align: center;
@@ -70,6 +81,7 @@ nav a:hover{
 .vow2{
   margin-top: 400px;
 }
+
 .footer{
   text-align: center;
   background-color: #81D8D0;
