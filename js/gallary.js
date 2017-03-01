@@ -1,3 +1,25 @@
+function populateImages(){
+
+  // get the images needed as a list
+  var imgList = [];
+  var count = 1;
+  var imageCounter = 1;
+  var number_of_images = 10;
+  for(var i = 0; i < number_of_images; i++){
+    var text = 'url(../img/weddingImg/img_' + i + '.JPG)';
+    console.log(text)
+    var divImg = $('<div/>',{
+      class : 'item',
+      id : 'img' + (i)
+    }).css('background-image', text);
+
+    $('.long_container').append(divImg);
+  }
+}
+// $('myOjbect').css('background-image', 'url(' + imageUrl + ')');
+// $('.imagePreview').css('background-image', 'url(' + imageUrl + ')');
+
+
 $(document).ready(function(){
   var window_width = $(window).width();
   var main_width = $(".main_container").width();
@@ -5,11 +27,13 @@ $(document).ready(function(){
   var item = $(".item");
   var slide_number = 0;
 
-  long_container.css("width", main_width * 5);
+  populateImages();
+
+  long_container.css("width", main_width * 6);
   item.css("width", long_container.width() / 13);
 
   $(".see_next").click(function(){
-    if(slide_number < 9){
+    if(slide_number < 10){
       slide_number++;
 
       if(slide_number == 13){

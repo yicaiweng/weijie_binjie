@@ -58,8 +58,8 @@ nav a:hover{
 }
 
 #section5 img{
-  width:  500px;
-  height: 500px;
+  width:  50%;
+  height: 65%;
 }
 
 #section6 p{
@@ -112,6 +112,7 @@ nav a:hover{
   height:100%;
   width: 100%;
   float: left;
+  margin: 0 2px;
 }
 
 .see_previous, .see_next{
@@ -159,12 +160,16 @@ nav a:hover{
   background-size: cover;
 }
 
-#img1{
-  background-image: url('../img/weddingImg/IMG_4807.JPG');
+/*#img2{
+  background-image: url('../img/weddingImg/img_0.JPG');
+}*/
+
+/*#img1{
+  background-image: url('../img/weddingImg/img_00.JPG');
 }
 
 #img2{
-  background-image: url('../img/weddingImg/IMG_4808.JPG');
+  background-image: url('../img/weddingImg/img_0.JPG');
 }
 
 #img3{
@@ -210,7 +215,7 @@ nav a:hover{
 
 #img13{
   background-image: url('../img/weddingImg/IMG_4776.JPG');
-}
+}*/
 
 .footer{
   text-align: center;
