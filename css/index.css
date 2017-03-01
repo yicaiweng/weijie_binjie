@@ -1,7 +1,9 @@
 *{
     font-family: 'Open Sans Condensed', sans-serif;
     margin: 0;
+    padding: 0;
     font-size: 30px;
+    text-decoration: none;
 }
 
 html, body{
@@ -55,10 +57,6 @@ nav a:hover{
   font-size: 40px;
 }
 
-#section2 p{
-  margin: 0 150px;
-}
-
 #section5 img{
   width:  500px;
   height: 500px;
@@ -78,8 +76,139 @@ nav a:hover{
   text-align: center;
 }
 
+
+.vow1 p, #section3 p{
+  margin: 0 150px;
+}
+
 .vow2{
-  margin-top: 400px;
+  margin-top: 100px;
+}
+
+.photoGallery{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+
+}
+
+.main_container{
+  width: 95%;
+  display: block;
+  margin: 0 auto;
+  height: 400px;
+  background-color: #2B313D;
+  align-self: center;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 200px;
+}
+
+.long_container{
+  height: 100%;
+}
+
+.item{
+  height:100%;
+  width: 100%;
+  float: left;
+}
+
+.see_previous, .see_next{
+  height: 100%;
+  width: 50px;
+  position: absolute;
+  left: 0;
+  display: flex;
+  transition: all 0.2s ease-in-out;
+}
+
+.see_next{
+  right: 0;
+  left: auto;
+}
+
+.arrow_next{
+  transform: rotate(180deg);
+}
+
+.arrow_previous, .arrow_next{
+  width: 100%;
+  align-self: center;
+}
+
+.see_previous:hover, .see_next:hover{
+  background-color: rgba(0,0,0,0.5);
+}
+
+#img1,
+#img2,
+#img3,
+#img4,
+#img5,
+#img6,
+#img7,
+#img8,
+#img9,
+#img10,
+#img11,
+#img12,
+#img13{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#img1{
+  background-image: url('../img/weddingImg/IMG_4807.JPG');
+}
+
+#img2{
+  background-image: url('../img/weddingImg/IMG_4808.JPG');
+}
+
+#img3{
+  background-image: url('../img/weddingImg/IMG_4809.JPG');
+}
+
+#img4{
+  background-image: url('../img/weddingImg/IMG_4802.JPG');
+}
+
+#img5{
+  background-image: url('../img/weddingImg/IMG_4804.JPG');
+}
+
+#img6{
+  background-image: url('../img/weddingImg/IMG_4805.JPG');
+}
+
+#img7{
+  background-image: url('../img/weddingImg/IMG_4806.JPG');
+}
+
+#img8{
+  background-image: url('../img/weddingImg/IMG_4753.JPG');
+}
+
+#img9{
+  background-image: url('../img/weddingImg/IMG_4776.JPG');
+}
+
+#img10{
+  background-image: url('../img/weddingImg/IMG_4775.JPG');
+}
+
+#img11{
+  background-image: url('../img/weddingImg/IMG_4776.JPG');
+}
+
+#img12{
+  background-image: url('../img/weddingImg/IMG_4775.JPG');
+}
+
+#img13{
+  background-image: url('../img/weddingImg/IMG_4776.JPG');
 }
 
 .footer{

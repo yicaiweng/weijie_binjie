@@ -6,10 +6,10 @@ $("a").click(function (e) {
     }, 1000);
 });
 
-$(function(){
-  $('a').each(function(){
-    if($(this).prop('href') == windows.location.href){
-      $(this).addClass('current');
-    }
-  });
-});
+// $(function(){
+//   $('a').each(function(){
+//     if($(this).prop('href') == windows.location.href){
+//       $(this).addClass('current');
+//     }
+//   });
+// });
