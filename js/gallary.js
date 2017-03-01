@@ -5,7 +5,7 @@ $(document).ready(function(){
   var item = $(".item");
   var slide_number = 0;
 
-  long_container.css("width", main_width * 3.05);
+  long_container.css("width", main_width * 5);
   item.css("width", long_container.width() / 13);
 
   $(".see_next").click(function(){

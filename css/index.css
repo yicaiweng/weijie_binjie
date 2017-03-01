@@ -96,7 +96,7 @@ nav a:hover{
   width: 95%;
   display: block;
   margin: 0 auto;
-  height: 400px;
+  height: 500px;
   background-color: #2B313D;
   align-self: center;
   position: relative;
@@ -189,6 +189,7 @@ nav a:hover{
 
 #img8{
   background-image: url('../img/weddingImg/IMG_4753.JPG');
+
 }
 
 #img9{
