@@ -1,21 +1,22 @@
-function populateImages(){
 
-  // get the images needed as a list
-  var imgList = [];
-  var count = 1;
-  var imageCounter = 1;
-  var number_of_images = 10;
-  for(var i = 0; i < number_of_images; i++){
-    var text = 'url(../img/weddingImg/img_' + i + '.JPG)';
-    console.log(text)
-    var divImg = $('<div/>',{
-      class : 'item',
-      id : 'img' + (i)
-    }).css('background-image', text);
+// function populateImages(){
+//   //get the images needed as a list
+//   var imgList = [];
+//   var count = 1;
+//   var imageCounter = 1;
+//   var number_of_images = 41;
+//   for(var i = 0; i < number_of_images; i++){
+//     var text = 'url(../img/weddingImg/resized_img/img' + i + '.JPG)';
+//     console.log(text)
+//     var divImg = $('<div/>',{
+//       class : 'item',
+//       id : 'img' + (i)
+//     }).css('background-image', text);
+//
+//     $('.long_container').append(divImg);
+//   }
+// }
 
-    $('.long_container').append(divImg);
-  }
-}
 // $('myOjbect').css('background-image', 'url(' + imageUrl + ')');
 // $('.imagePreview').css('background-image', 'url(' + imageUrl + ')');
 
@@ -27,16 +28,16 @@ $(document).ready(function(){
   var item = $(".item");
   var slide_number = 0;
 
-  populateImages();
+  // populateImages();
 
-  long_container.css("width", main_width * 6);
-  item.css("width", long_container.width() / 13);
+  long_container.css("width", main_width * 3);
+  item.css("width", long_container.width() / 10);
 
   $(".see_next").click(function(){
-    if(slide_number < 10){
+    if(slide_number < 8){
       slide_number++;
 
-      if(slide_number == 13){
+      if(slide_number == 40){
         $(".see_next").animate({opacity:0});
       } else{
         $(".see_next").animate({opacity:1});
@@ -67,7 +68,7 @@ $(document).ready(function(){
         $(".see_previous").animate({opacity:1});
       }
 
-      if(slide_number == 13){
+      if(slide_number == 40){
         $(".see_next").animate({opacity: 0});
       }else{
         $(".see_next").animate({opacity: 1});
