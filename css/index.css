@@ -174,11 +174,19 @@ nav a.current{
   box-shadow: 0 0 10px #81D8D0;
 }
 
+.musicPlayer{
+  text-align: center;
+  height: 5%;
+  background-color: #2B313D;
+}
+
+.musicPlayer audio{
+  margin-top: 5px;
+}
 .footer{
   text-align: center;
   background-color: #81D8D0;
   color: #f7f7f7;
-  height: 50px;
 }
 
 .foooter p{
@@ -198,7 +206,7 @@ nav a.current{
   }
 
   *{
-    font-size: 10px;
+    font-size: 20px;
   }
 
   .container{
@@ -237,4 +245,7 @@ nav a.current{
     width: 100%;
   }
 
+  .footer p{
+    margin-top: 20px;
+  }
 }
