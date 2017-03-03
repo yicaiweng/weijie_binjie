@@ -73,7 +73,10 @@ nav a.current{
   width:  50%;
   height: 70%;
 }
+#section5 img:hover{
+  box-shadow: 0 0 10px #81D8D0;
 
+}
 #section6 p{
   margin: 10px 0;
 }
@@ -198,6 +201,11 @@ nav a.current{
     font-size: 10px;
   }
 
+  .container{
+    width: 100%;
+    margin: auto;
+  }
+
   nav{
     height: 10%;
     text-align: center;
@@ -206,6 +214,7 @@ nav a.current{
 
   nav a{
     margin: 10px;
+    margin-bottom: 4px;
   }
 
   .vow1 p, #section3 p{
@@ -228,14 +237,4 @@ nav a.current{
     width: 100%;
   }
 
-  .photoGallery:hover img{
-    opacity: 0.6;
-    transition: scale(0.92);
-  }
-
-  .photoGallery img:hover{
-    opacity: 1;
-    transform: scale(1) rotate(2deg);
-    box-shadow: 0 0 10px #81D8D0;
-  }
 }
