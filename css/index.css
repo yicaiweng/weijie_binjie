@@ -59,7 +59,7 @@ html, body{
   overflow: hidden;
 }
 
-.container img{
+.coverImg img{
   width: 100%;
   height: auto;
 }
@@ -75,6 +75,12 @@ html, body{
 .section h1{
   font-size: 40px;
 }
+
+/*.coverImg{
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}*/
 
 #section3 p{
   text-indent: 20px;
@@ -184,11 +190,27 @@ html, body{
   box-shadow: 0 0 10px #81D8D0;
 }
 
+
 .musicPlayer{
   text-align: center;
   height: 5%;
   background-color: #2B313D;
 }
+/*
+#emailIcon{
+  text-align: center;
+}
+
+#emailIcon a{
+  color: #f7f7f7;
+}*/
+
+/*#emailIcon img{
+  width: 40px;
+  height: 40px;
+  display: block;
+  border: 1px solid black;
+}*/
 
 .musicPlayer audio{
   margin-top: 5px;
