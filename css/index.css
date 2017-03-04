@@ -76,6 +76,9 @@ html, body{
   font-size: 40px;
 }
 
+#section3 p{
+  text-indent: 20px;
+}
 #section5 img{
   width:  50%;
   height: 70%;
