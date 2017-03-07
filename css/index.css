@@ -77,23 +77,20 @@ html, body{
   font-size: 40px;
 }
 
-/*.coverImg{
-  width: 100%;
-  height: auto;
-  overflow: hidden;
-}*/
-
 #section3 p{
   text-indent: 20px;
 }
+
 #section5 img{
   width:  50%;
   height: 70%;
 }
+
 #section5 img:hover{
   box-shadow: 0 0 10px #81D8D0;
 
 }
+
 #section6 p{
   margin: 10px 0;
 }
@@ -108,47 +105,9 @@ html, body{
   text-align: center;
 }
 
-
-/*.vow1 p, #section3 p{
-  margin: 0 150px;
-}*/
-
 .vow2{
   margin-top: 100px;
 }
-
-/*.see_previous, .see_next{
-  height: 100%;
-  width: 50px;
-  position: absolute;
-  left: 0;
-  display: flex;
-  transition: all 0.2s ease-in-out;
-}
-
-.see_next{
-  right: 0;
-  left: auto;
-}
-
-.arrow_next{
-  transform: rotate(180deg);
-}
-
-.arrow_previous, .arrow_next{
-  width: 100%;
-  align-self: center;
-}
-
-.see_previous:hover, .see_next:hover{
-  background-color: rgba(0,0,0,0.5);
-}*/
-
-/*.photoGallery{
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}*/
 
 #section1,#section2,#section3,#section4,#section5,#section6{
   overflow: auto;
@@ -180,17 +139,17 @@ html, body{
   box-sizing: border-box;
 }
 
+/*img shading away*/
 .photoGallery:hover img{
   opacity: 0.6;
   transition: scale(0.92);
 }
-
+ /*img rotate and a background shadow showing up */
 .photoGallery img:hover{
   opacity: 1;
   transform: scale(1) rotate(2deg);
   box-shadow: 0 0 10px #81D8D0;
 }
-
 
 .musicPlayer{
   text-align: center;
