@@ -127,7 +127,7 @@ Optional styling for bbplayer elements.
 @media all and (max-width: 480px) {
 
   .bbplayer {
-    font: 200 14px/1.5 'Open Sans Condensed';
+    font: 200 14px/1.5 'Open Sans Condensed'  ;
     color: #898989;
     display: inline-block;
   }
