@@ -9,6 +9,7 @@
    <!-- stylesheet -->
    <link rel="stylesheet" href="css/index.css">
    <link rel="stylesheet" href="css/lightbox.css">
+   <link rel="stylesheet" href="css/bbplayer.css">
    <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
    <title>Weijie & Binjie | Welcome</title>
@@ -272,15 +273,30 @@
       </div> -->
       <!-- end of section 7 -->
 
-        <div class="musicPlayer">
-          <audio autoplay loop>
-            <!-- <source src='music/La Vie En Rose.mp3' type="audio/mp3"> -->
-            <!-- <source src='music/LOCUS ISTE.mp3' type="audio/mp3"> -->
-            <!-- <source src="music/陈奕迅 - 陪你度过漫长岁月.mp3" type="audio/mp3" /> -->
-            <source src='music/Justin Timberlake - Not A Bad Thing.mp3' />
+      <div class="bbplayer">
+        <span class="bb-rewind"></span>
+        <span class="bb-play"></span>
+        <span class="bb-forward"></span>
+        <span class="bb-trackTime"></span>
+        <span class="bb-trackLength"></span>
+        <span class="bb-trackTitle"></span>
+        <audio autoplay>
+          <source src="music/Not A Bad Thing.mp3"/>
+          <source src="music/La Vie En Rose.mp3"/>
+          <source src="music/LOCUS ISTE.mp3"/>
+          <source src="music/陪你度过漫长岁月.mp3"/>
+        </audio>
+      </div>
+
+        <!-- <div class="musicPlayer">
+          <audio controls>
+            <source src='music/La Vie En Rose.mp3' type="audio/mp3">
+            <source src='music/LOCUS ISTE.mp3' type="audio/mp3">
+            <source src="music/陈奕迅 - 陪你度过漫长岁月.mp3" type="audio/mp3">
+            <source src='music/Justin Timberlake - Not A Bad Thing.mp3'>
             Sorry, Your browser doesnt support this awesomeness~
           </audio>
-        </div>
+        </div> -->
 
           <div class="footer">
             <div class="container">
@@ -293,6 +309,7 @@
   <!-- <script type="text/javascript" src="js/gallary.js"></script> -->
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <script type="text/javascript" src="js/lightbox.min.js"></script>
+  <script type="text/javascript" src="js/bbplayer.js"></script>
  </body>
 
  </html>
