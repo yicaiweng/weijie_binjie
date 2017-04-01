@@ -221,6 +221,10 @@ html, body{
     font-size: 19px;
   }
 
+  html, body{
+    width: 100%;
+  }
+
   .container{
     width: 98%;
     margin: auto;
