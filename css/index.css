@@ -121,7 +121,7 @@ html, body{
 }
 
 .annyPhotoGallery {
-  margin: 10% 10%;
+  margin-left: 15%;
 }
 
 .weddingPhotoGallery {
@@ -292,6 +292,10 @@ html, body{
   .photoGallery img{
     padding: 5px 0;
     width: 100%;
+  }
+
+  .annyPhotoGallery {
+    margin-left: 0px;
   }
 
   .footer p{
